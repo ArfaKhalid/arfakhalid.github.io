@@ -1,0 +1,159 @@
+/* General styles */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Header */
+  
+  .hero {
+    background-color: #f8f9fa;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+  }
+  
+  /* About Me */
+  
+  .about {
+    padding: 20px;
+  }
+  
+  .about h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Professional Journey */
+  
+  .professional-journey {
+    padding: 20px;
+  }
+  
+  .professional-journey h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .professional-journey p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Key Strengths */
+  
+  .key-strengths {
+    padding: 20px;
+  }
+  
+  .key-strengths h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .key-strengths ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .key-strengths li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Passion for Data */
+  
+  .passion-for-data {
+    padding: 20px;
+  }
+  
+  .passion-for-data h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .passion-for-data p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* What Drives Me */
+  
+  .what-drives-me {
+    padding: 20px;
+  }
+  
+  .what-drives-me h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .what-drives-me p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Connect */
+  
+  .connect {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .connect h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .connect p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .connect a {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center
+  }

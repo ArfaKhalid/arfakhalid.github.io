@@ -1,0 +1,678 @@
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hi! its Arfa Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#about" class="icon solid fa-info-circle"><span>About Me</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Portfolio</span></a>
+						<a href="#resume" class="icon solid fa-file-pdf"><span>Resume</span></a>
+						<a href="#https://www.linkedin.com/in/arfakhalid-ms/" class="icon brands fa-linkedin"><span>Linkedln</span></a>
+						<a href="#https://github.com/ArfaKhalid" class="icon brands fa-github"><span >GitHub</span></a>
+						<a href="#contact" class="icon solid fa-envelope"><span>Contact Me</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>Arfa Khalid</h1>
+									<p>Data Scientist | Data Analyst  </p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+									<img src="images/profile.png" alt="" />
+								</a>
+							</article>
+                       <!-- About -->
+					   <style>
+						#about {
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							text-align: Left;
+							padding: 20px;
+						}
+					
+						.about-header {
+							margin-bottom: 20px;
+						}
+					
+						.about-photo {
+							border-radius: 80%;
+							max-width: 400px;
+							height: auto;
+							
+						}
+					
+						#about p {
+							font-size: 18px;
+							line-height: 1.6;
+							color: #555;
+							max-width: 600px;
+							margin: 0 auto;
+						}
+					</style>
+<article id="about" class="panel">
+    <div class="about-header">
+        <!-- Your photo placeholder -->
+        <img src="images\pic.jpeg" alt="Arfa Khalid" class="about-photo">
+    </div>
+    
+    <p>Welcome to my Data-Driven World! I am Arfa Khalid, a passionate data scientist dedicated to transforming raw data into meaningful insights. With a background in Statistics, I specialize in unraveling hidden patterns and extracting valuable insights from diverse datasets. Over my four-year professional journey, I've had the privilege of working across Research, Technology, Finance, and Retail industries, leveraging predictive modeling and machine learning to drive informed decision-making. Proficient in Python, R, and SQL, I excel in data analysis, model development, and effective communication to bridge technical and non-technical gaps. Beyond code, I'm fueled by a genuine passion for the transformative potential of data. I stay abreast of the latest trends, tools, and methodologies, always seeking new ways to refine my skills. Motivated by the challenge of unraveling unique problems, I aim to make a tangible impact by optimizing processes, enhancing user experiences, and predicting future trends. Eager to collaborate and contribute to innovative projects, I invite you to connect. Let's harness the power of data to create a brighter and more informed future together.</p>
+</article>
+
+							
+						<!-- work -->	
+							<article id="work" class="panel">		
+										<style>
+											#work {
+												display: flex;
+												flex-wrap: wrap;
+												font-size : 90%;
+												padding: auto;
+											}
+
+											#work .project-card {
+												background-color: #fff;
+												border-radius: 2px;
+												box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+												margin: 1em;
+												overflow: hidden;
+												width: 100%; /* Adjust based on the number of columns you want */
+												transition: transform 0.3s;
+												box-sizing: border-box; /* Include padding and border in width calculation */
+												padding: auto;
+											}
+									
+											#work .project-card:hover {
+												transform: scale(1.05);
+											}
+									
+											#work .project-image {
+												width: 100%;
+												height: 200px;
+												object-fit: cover;
+											}
+									
+											#work .project-info {
+												padding: 0.5em;
+											}
+									
+											#work footer {
+												background-color: #f5efef;
+												color: #fff;
+												text-align: left;
+												padding: 2em;
+												position: fixed;
+												bottom: 0;
+												width: 100%;
+											}
+									
+											/* Styles for the project summary popup */
+											#work .popup {
+												display: none;
+												position: fixed;
+												font-size: smaller;
+												z-index: 1;
+												padding: 20px;
+												background: white;
+												border: 2px solid #ddd;
+												box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+												width: 40%;
+												max-width: 600px;
+												top: 80%;
+												left: 50%;
+												transform: translate(-50%, -50%);
+												transition: transform 0.3s ease; /* Add a sliding transition */
+											}
+									
+											#work .popup h2 {
+												font-size: 1.5rem;
+											}
+									
+											#work .popup ul {
+												list-style-type: disc;
+												padding-left: 20px;
+											}
+									
+											#work .popup .close {
+												position: absolute;
+												top: 20px;
+												right: 20px;
+												font-size: 1.5rem;
+												cursor: pointer;
+											}
+									
+											
+											#work .project-info a.button {
+												display: inline-block;
+												font-size: 20px;
+												font-family: 'Times New Roman', Times, serif;
+												font-style: normal;
+												padding: 3px 25px;
+												margin: 10px ;
+												background-color: #db3934;
+												color: #fff;
+												text-decoration: none;
+												border-radius: 5px;
+												transition: background-color 0.3s;
+												text-align: center;
+											}
+										
+											#work .project-info a.button:hover {
+												background-color: #2980b9;
+											}
+											#work .project-info .button {
+												display: inline-block;
+												font-size: 20px;
+												font-family: 'Times New Roman', Times, serif;
+												font-style: normal;
+												padding: 15px 18px;
+												margin: 10px ;
+												background-color: #50db34;
+												color: #fff;
+												text-decoration: none;
+												border-radius: 5px;
+												transition: background-color 0.3s;
+												text-align: center;
+											}
+										
+											#work .project-info .button:hover {
+												background-color: #2980b9;
+											}
+										</style>
+									</head>
+									<body>
+									
+										<!-- Work -->
+										<article id="work" class="panel">
+											<header>
+												<title>Projects</title>
+											</header>
+											<h2>Projects</h2>
+<br><br>
+<p>Welcome to my data science portfolio, where I embark on a journey through captivating projects that showcase my prowess in unraveling insights from intricate datasets. Beyond mere exercises, these projects are tales of real-world problem-solving, driven by a passion for deciphering the narratives hidden within the numbers, employing cutting-edge machine-learning techniques.
+
+I derive joy from transforming data into actionable outcomes, be it forecasting future trends, unveiling hidden patterns, or implementing innovative algorithms for task automation.
+<br>
+Let my work be the voice: from predicting the future to uncovering hidden patterns, witness the power of pairing data science with practical applications. Explore my portfolio, and let the magic of data unfold before you.</p>
+
+																			<!-- Project Card 1 -->
+																			<section>
+																			<div class="project-card">
+																				<img src="images/climate.png" alt="Project 1" class="project-image">
+																				<div class="project-info">
+																					<h2>Climate Change Analysis</h2><br>
+																					<p>Explored NASA's 30 Years datasets for climate change analysis, employing the Seaborn library in Python to forecast temperature trends in the coming years.</p>
+																					
+																					<a class="button medium" href="https://github.com/ArfaKhalid/Climate-Change-Analysis-Time-Series-Forecasting-in-ML/blob/main/Climate_change_anlaysis.ipynb">View Project</a>
+																					<!-- Button to show project summary -->
+																					<button class="button large" id="showSummaryButton">Project summary</button>
+																				
+																				</div>
+																			</div>
+																		</section>
+																	</article>
+								
+																		<!-- Project Summary Popup (initially hidden) -->
+																		<div id="projectSummaryPopup" class="popup">
+																			<span class="close" onclick="closeProjectSummary()">&times;</span>
+																			<h2>Project Summary</h2>
+																			<p>In this project, I leveraged my skills in data analysis and utilized the Python programming language, particularly the Seaborn library, to conduct an in-depth analysis of NASA's 30 Years datasets for climate change. By applying data visualization and predictive modeling techniques, I aimed to understand and predict temperature trends in the upcoming years.</p>
+																	
+																			<!-- Skills and Technologies Used -->
+																			<h2>Skills and Technologies Used</h2>
+																			<ul>
+																				<li>Data collection and cleaning</li>
+																				<li>Data visualization with Seaborn (Python)</li>
+																				<li>Predictive modeling</li>
+																			</ul>
+																		</div>
+																	
+																		<!-- JavaScript functions for the popup -->
+																		<script>
+																			// Function to open the project summary popup
+																			function showProjectSummary() {
+																				var projectSummaryPopup = document.getElementById("projectSummaryPopup");
+																				projectSummaryPopup.style.display = "block";
+																			}
+																	
+																			// Function to close the project summary popup
+																			function closeProjectSummary() {
+																				var projectSummaryPopup = document.getElementById("projectSummaryPopup");
+																				projectSummaryPopup.style.display = "none";
+																			}
+																	
+																			// Add a click event listener to the "Show Project Summary" button
+																			document.getElementById("showSummaryButton").addEventListener("click", showProjectSummary);
+																		</script>
+																	</section>
+																	<!--PROJECT CARD 2-->
+																	<section>
+																		<div class="project-card">
+																			<img src="images/sentiment.png" alt="Project 2" class="project-image">
+																			<div class="project-info">
+																				<h2>Deep Learning with Keras</h2><br>
+																				<p>Implemented a deep learning model using Keras for Natural Langugae Processing. The model achieved an accuracy of 90% on a custom text inputs foe sentiment analysis on IDMB Moies Reviews.</p>
+																				
+																				<a class="button medium" href="https://github.com/example/ImageRecognition">View Project</a>
+																				<button class="button large" id="showSummaryButton2">Project summary</button>
+																			</div>
+																		</div>
+																	</section>
+																	
+																	<!-- Project Summary Popup (initially hidden) -->
+																	<div id="projectSummaryPopup2" class="popup">
+																		<span class="close" onclick="closeProjectSummary2()">&times;</span>
+																		<h2>Project Summary</h2>
+																		<p>Leveraging deep learning with TensorFlow and Keras, I built a model that predicts the sentiment (positive or negative) of movie reviews from the IMDB dataset, achieving an impressive 86.97% accuracy on unseen data.</p>
+																	
+																		<!-- Skills and Technologies Used -->
+																		<h2>Skills and Technologies Used</h2>
+																		<ul>
+																			<li>Deep learning with TensorFlow and Keras</li>
+																			<li>NLP principles and techniques</li>
+																			<li>Sentiment Aanalysis Function</li>
+																			<li>Model evaluation and optimization</li>
+																		</ul>
+																		<h3>Impact</h3>
+																		<ul>
+																			<li>Automated Sentiment Analysis: Eliminates the need for manual review analysis, saving time and resources.</li>
+																		    <li>Enhanced Customer Understanding: Provides businesses with valuable insights into customer opinions, driving informed product development and marketing strategies.</li>
+																			<li>Improved Recommendation Systems: Recommends products or content tailored to user preferences based on sentiment analysis of past reviews.</li>
+																			<li>Public Opinion Monitoring: Tracks sentiment trends towards specific topics or events, enabling proactive response and strategy adjustment.</li>
+																		</ul>
+																	</div>
+																	
+																	<!-- JavaScript functions for the popup -->
+																	<script>
+																		// Function to open the project summary popup
+																		function showProjectSummary2() {
+																			var projectSummaryPopup = document.getElementById("projectSummaryPopup2");
+																			projectSummaryPopup.style.display = "block";
+																		}
+																	
+																		// Function to close the project summary popup
+																		function closeProjectSummary2() {
+																			var projectSummaryPopup = document.getElementById("projectSummaryPopup2");
+																			projectSummaryPopup.style.display = "none";
+																		}
+																	
+																		// Add a click event listener to the "Show Project Summary" button
+																		document.getElementById("showSummaryButton2").addEventListener("click", showProjectSummary2);
+																	</script>
+																	</section>
+																	<section>
+																		<div class="project-card">
+																			<img src="images/VACCINE.png" alt="Project 3" class="project-image">
+																			<div class="project-info">
+																				<h2> Predicting Vaccination Status for Analyzing COVID-19 Vaccine Effectiveness</h2><br>
+																				<p>Designed and developed a Multinomial Logistic Regression Model using pandas, scikit-learn, and Matplotlib. Implemented features like vaccination status, age groups, and Covid-19 cases.</p>
+																				
+																				<a class="button medium" href="https://github.com/ArfaKhalid/Multinomial-Logistic-Regression-Model--Covid19-Vaccines-Analysis/blob/main/Analyzing_the_effectiveness_of_Covid_19_Vaccines_Prediction_Model.ipynb">View Project</a>
+																				<button class="button large" id="showSummaryButton3">Project summary</button>
+																			</div>
+																		</div>
+																	</section>
+																	
+																	<!-- Project Summary Popup (initially hidden) -->
+																	<div id="projectSummaryPopup3" class="popup">
+																		<span class="close" onclick="closeProjectSummary3()">&times;</span>
+																		<h2>Project Summary</h2>
+																		<p> Developed a multinomial logistic regression model, the project predicts an individual's vaccination status (Fully Vaccinated, Partially Vaccinated, Unvaccinated) based on age group and the number of Covid-19 cases. This allows for a data-driven assessment of vaccine effectiveness against case rates across various age demographics.This project demonstrates my proficiency in building and evaluating machine learning models for real-world impact. </p>
+																		<!-- Skills and Technologies Used -->
+																		<h2>Skills and Technologies Used</h2>
+																		<ul>
+																			<li>Web Scrabbing</li>
+																			<li> Multinomial logistic regression model using scikit-learn</li>
+																			<li>Data Analysis </li>
+																			<li>Model Evaluation & Visualization </li>
+																		</ul>
+																		<h2>Impact</h2>
+																		<ul>
+																			<li>Targeted Vaccine Interventions: By predicting vaccination status, the model can inform targeted vaccine campaigns and interventions for specific age groups with lower vaccination rates.</li>
+																			<li>Data-Driven Decision Making: The project demonstrates the power of machine learning in analyzing complex public health issues, supporting data-driven decision making for effective COVID-19 response strategies.</li>
+																			<li>Enhanced Case Management: Understanding the impact of vaccination status on case rates can help healthcare systems prioritize resources and interventions for different age groups.</li>
+																			<li>Enhancing Research and Analysis: The project contributes to the ongoing research on COVID-19 vaccines, providing a replicable methodology for analyzing effectiveness across various populations.</li>
+																		</ul>
+																	</div>
+																	
+																	<!-- JavaScript functions for the popup -->
+																	<script>
+																		// Function to open the project summary popup
+																		function showProjectSummary3() {
+																			var projectSummaryPopup = document.getElementById("projectSummaryPopup3");
+																			projectSummaryPopup.style.display = "block";
+																		}
+																	
+																		// Function to close the project summary popup
+																		function closeProjectSummary3() {
+																			var projectSummaryPopup = document.getElementById("projectSummaryPopup3");
+																			projectSummaryPopup.style.display = "none";
+																		}
+																	
+																		// Add a click event listener to the "Show Project Summary" button
+																		document.getElementById("showSummaryButton3").addEventListener("click", showProjectSummary3);
+																	</script>
+																	</section>
+
+											
+																	<section>
+										
+												<!-- Project Card 4 -->
+												<div class="project-card">
+													<img src="images/flight.png" alt="Project 4" class="project-image">
+													<div class="project-info">
+														<h2>Enhancing Air Travel Efficiency with Classification Model</h2><br>
+														<p>In this project, I worked on US major Airlines datasets and successfully applied a classification model to predict flight arrival delays, providing insights into model performance and areas for improvement.</p>
+														
+														<a class="button medium" href="https://github.com/ArfaKhalid/Prediction-of-Flight-Delays-using-Classification-Model/blob/main/Prediction_of_Flight_Delays_using_Classification_Model.ipynb">View Project</a>
+														<!-- Button to show project summary -->
+														<button class="button large" id="showSummaryButton4">Project summary</button>
+													
+													</div>
+												</div>
+											</section>
+										
+									
+										<!-- Project Summary Popup (initially hidden) -->
+										<div id="projectSummaryPopup4" class="popup">
+											<span class="close" onclick="closeProjectSummary4()">&times;</span>
+											<h2>Project Summary</h2>
+											<p> This project tackled the challenge of predicting on-time flight arrivals using a classification model. Harnessing a major U.S. airline dataset, I built a robust pipeline that cleans, manipulates, and prepares data for optimal model training. Employing a Random Forest classifier from scikit-learn, I achieved an impressive 86.43% accuracy in predicting on-time arrivals.</p>
+									
+											<!-- Skills and Technologies Used -->
+											<h2>Skills and Technologies Used</h2>
+											<ul>
+												<li>Data manipulation and cleaning</li>
+												<li>Classification Model Building</li>
+												<li>Model evaluation & Visualization</li>
+												<li>Prediction & Visualization</li>
+											</ul>
+											<h2>
+												Impact
+											</h2>
+											<ul>
+												<li>Reduced flight delays: This model has the potential to significantly decrease flight delays, saving airlines millions of dollars in operational costs and passenger compensation.</li>
+												<li>Improved passenger experience: Accurate arrival predictions can empower passengers to make informed decisions about travel plans, reducing stress and inconvenience.</li>
+												<li>Enhanced airline efficiency: By optimizing resource allocation and crew scheduling based on predicted delays, airlines can improve operational efficiency and profitability.</li>
+											</ul>
+										</div>
+									
+										<!-- JavaScript functions for the popup -->
+										<script>
+											// Function to open the project summary popup
+											function showProjectSummary4() {
+												var projectSummaryPopup = document.getElementById("projectSummaryPopup4");
+												projectSummaryPopup.style.display = "block";
+											}
+									
+											// Function to close the project summary popup
+											function closeProjectSummary4() {
+												var projectSummaryPopup = document.getElementById("projectSummaryPopup4");
+												projectSummaryPopup.style.display = "none";
+											}
+									
+											// Add a click event listener to the "Show Project Summary" button
+											document.getElementById("showSummaryButton4").addEventListener("click", showProjectSummary4);
+										</script>
+									</section>
+									
+									
+									<section>
+										<!-- Project Card 5 -->
+										<div class="project-card">
+											<img src="images/EMERGENCY.png" alt="Project 5" class="project-image">
+											<div class="project-info">
+												<h2>Emergency Medical Response Assessment</h2><br>
+												<p>Analyzed New York City's collision data to assess hospital response, revealing patterns through interactive maps. Proposed strategic locations for new hospitals to minimize distant collision occurrences, emphasizing the proactive role of spatial analysis in optimizing emergency medical services.</p>
+												
+												<a class="button medium" href="https://github.com/ArfaKhalid/Spatial-Data-Analysis/blob/main/Emergency_Medical_Response_Assessment.ipynb">View Project</a>
+												<!-- Button to show project summary -->
+												<button class="button large" id="showSummaryButton5">Project summary</button>
+											
+											</div>
+										</div>
+									</section>
+								
+							
+								<!-- Project Summary Popup (initially hidden) -->
+								<div id="projectSummaryPopup5" class="popup">
+									<span class="close" onclick="closeProjectSummary5()">&times;</span>
+									<h2>Project Summary</h2>
+									<p> Leveraged spatial data analysis and geovisualization to pinpoint high-collision areas, assess hospital coverage, and propose strategic hospital locations for improved emergency response.</p>
+							
+									<!-- Skills and Technologies Used -->
+									<h2>Skills and Technologies Used</h2>
+									<ul>
+										<li>Spatial Data Analysis</li>
+										<li>Geovisualization</li>
+										<li>Statistical Analysis</li>
+										<li>Problem-Solving</li>
+										<li>Decision-Making</li>
+									</ul>
+									<h3>Impact </h3>
+									<ul>
+										<li>Pinpointed high-collision areas: Informed targeted interventions to reduce accidents.</li>
+										<li>Optimized hospital coverage: Improved accessibility and resource allocation for emergency response.</li>
+										<li>Proposed strategic hospital locations: Data-driven decisions for faster response times and improved patient outcomes.</li>
+										<li>Enhanced decision-making: Empowered stakeholders with spatial insights for informed choices.</li>
+										<li>Increased resource efficiency: Maximized impact of emergency response efforts.</li>
+									</ul>
+								</div>
+							
+								<!-- JavaScript functions for the popup -->
+								<script>
+									// Function to open the project summary popup
+									function showProjectSummary5() {
+										var projectSummaryPopup = document.getElementById("projectSummaryPopup5");
+										projectSummaryPopup.style.display = "block";
+									}
+							
+									// Function to close the project summary popup
+									function closeProjectSummary5() {
+										var projectSummaryPopup = document.getElementById("projectSummaryPopup5");
+										projectSummaryPopup.style.display = "none";
+									}
+							
+									// Add a click event listener to the "Show Project Summary" button
+									document.getElementById("showSummaryButton5").addEventListener("click", showProjectSummary5);
+								</script>
+							</section>
+							<section>
+								<!-- Project Card 6 -->
+								<div class="project-card">
+									<img src="images/dba.png" alt="Project 6" class="project-image">
+									<div class="project-info">
+										<h2>Database Management using PostgreSQL</h2><br>
+										<p>This project implemented database triggers in PostgreSQL to automatically track and record changes in an employee database.</p>
+										
+										<a class="button medium" href="https://github.com/ArfaKhalid/DML_Triggers/blob/main/DML_Triggers%20-%20SQL%20Server.sh">View Project</a>
+										<!-- Button to show project summary -->
+										<button class="button large" id="showSummaryButton6">Project summary</button>
+									
+									</div>
+								</div>
+							</section>
+						
+					
+						<!-- Project Summary Popup (initially hidden) -->
+						<div id="projectSummaryPopup6" class="popup">
+							<span class="close" onclick="closeProjectSummary6()">&times;</span>
+							<h2>Project Summary</h2>
+							<p>This project showcases my expertise in database management and trigger design, delivering a robust and automated solution for employee data auditing with significant benefits for data integrity, transparency, and efficiency. </p>
+					
+							<!-- Skills and Technologies Used -->
+							<h2>Skills and Technologies Used</h2>
+							<ul>
+								<li>PostgreSQL</li>
+								<li>SQL</li>
+								<li>Trigger Design</li>
+								<li>Database Design</li>
+								<li>Testing and Validation</li>
+							</ul>
+							<h2>Impact </h2>
+							<ul>
+								<li>Enhanced Data Integrity: Automated audit trails guarantee complete and reliable records of all changes, improving data trust and accountability.</li>
+								<li>Reduced Manual Effort: Eliminates the need for manual change tracking, freeing up valuable time for other tasks.</li>
+								<li>Improved Compliance: Provides documented evidence of data changes, aiding compliance with regulations and internal governance requirements.</li>
+								<li>Simplified Data Analysis: Centralized log tables facilitate easy analysis of change trends, employee activity, and potential anomalies.</li>
+								<li>Increased Transparency: Provides a clear audit trail for employee data changes, promoting trust and accountability within the organization.</li>
+							</ul>
+						</div>
+					
+						<!-- JavaScript functions for the popup -->
+						<script>
+							// Function to open the project summary popup
+							function showProjectSummary6() {
+								var projectSummaryPopup = document.getElementById("projectSummaryPopup6");
+								projectSummaryPopup.style.display = "block";
+							}
+					
+							// Function to close the project summary popup
+							function closeProjectSummary6() {
+								var projectSummaryPopup = document.getElementById("projectSummaryPopup6");
+								projectSummaryPopup.style.display = "none";
+							}
+					
+							// Add a click event listener to the "Show Project Summary" button
+							document.getElementById("showSummaryButton6").addEventListener("click", showProjectSummary6);
+						</script>
+					</section>
+				</article>
+
+										
+									
+					<!-- Contact -->
+					<style>
+						#contact {
+							text-align: center;
+							padding: 40px;
+						}
+					
+						#contact h2 {
+							color: #333;
+							font-size: 2.5rem;
+							margin-bottom: 20px;
+						}
+					
+						.contact p {
+							font-size: 18px;
+							color: #555;
+							margin: 10px 0;
+						}
+					
+						.contact p a {
+							color: #007bff;
+							text-decoration: none;
+							font-weight: bold;
+						}
+					
+						.contact p a:hover {
+							text-decoration: underline;
+						}
+					
+						.contact-form {
+							max-width: 500px;
+							margin: 0 auto;
+						}
+					
+						.contact-form label {
+							display: block;
+							margin: 10px 0;
+							text-align: left;
+							font-size: 18px;
+							color: #333;
+						}
+					
+						.contact-form input,
+						.contact-form textarea {
+							width: 100%;
+							padding: 10px;
+							margin: 5px 0 15px;
+							border: 1px solid #ddd;
+							border-radius: 5px;
+							box-sizing: border-box;
+							font-size: 16px;
+						}
+					
+						.contact-form button {
+							background-color: #007bff;
+							color: #fff;
+							border: none;
+							padding: 12px 20px;
+							border-radius: 5px;
+							font-size: 18px;
+							cursor: pointer;
+						}
+					
+						.contact-form button:hover {
+							background-color: #0056b3;
+						}
+					</style>
+					
+					<!-- Contact -->
+					<article id="contact" class="panel">
+						<header>
+							<h2>Contact Me</h2>
+						</header>
+						<div>
+							<div class="row">
+								
+							</div>
+						</div>
+						
+						<!-- Contact Form -->
+						<div class="contact-form">
+							<form action="mailto:arfakhalid09@gmail.com" method="post" enctype="text/plain">
+								<label for="name">Your Name:</label>
+								<input type="text" id="name" name="name" required>
+					
+								<label for="email">Your Email:</label>
+								<input type="email" id="email" name="email" required>
+					
+								<label for="message">Your Message:</label>
+								<textarea id="message" name="message" rows="4" required></textarea>
+					
+								<button type="submit">Send Message</button>
+							</form>
+						</div>
+					</article>
+							
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="copyright">
+							<li>&copy; ArfaKhalid</li>
+						</ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
